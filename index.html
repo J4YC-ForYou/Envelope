@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For You ❤</title>
+    <link rel="stylesheet" href="./style.css">
+	<link rel="icon" type="image/x-icon" href="love.ico">
+</head>
+<body>
+    <div class="container">
+        <div class="amplop-wrapper">
+            <div class="amplop">
+                <div class="surat">
+                    <div class="text">
+                        <strong>Dear bogel cantik</strong>
+                        <p>
+                            Kamu itu cantik, berharga, dan lembut. Walaupung keliatan pendek seperti bulan di langit malam, tapi cantiknya kamu bukan main dan selalu bersinar dengan lembut. REMEMBER YOU ARE WORTHHY IN EVERY SINGLE FIGHTS.
+                        </p>
+                        
+						<p>from J.</p>
+                    </div>
+                </div>
+            </div>
+            <div onmousedown="sound1.play()" class="heart"></div>
+        </div>
+    </div>
+    <script>
+        alert("TEHE :3");
+
+        const amplop = document.querySelector('.amplop-wrapper');
+        amplop.addEventListener('click', () => {
+            amplop.classList.toggle('flap');
+        });
+
+		var sound1 = new Audio();
+		sound1.src = "fight4u.m4a";
+
+    </script>
+</body>
+</html>
